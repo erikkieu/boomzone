@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: #f3f7ff;
+  background: #10131f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hud {
+  width: min(1050px, 95vw);
+  margin-top: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#game {
+  width: min(1050px, 95vw);
+  height: auto;
+  border: 1px solid #3f4767;
+  background: #1b2238;
+  margin: 10px 0 20px;
+}
